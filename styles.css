@@ -1,0 +1,239 @@
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), rgb(8, 15, 58));
+    overflow: hidden;
+    z-index: 0;
+}
+strong {
+    position: absolute;
+    color: white;
+    opacity: 70%;
+}
+strong:first-child {
+    top: 5%;
+    left: 5%;
+    font-size: 0.6em;
+    animation: 4s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(2) {
+    top: 15%;
+    left: 20%;
+    font-size: 0.3em;
+    animation: 4.2s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(3) {
+    top: 7%;
+    left: 50%;
+    font-size: 0.5em;
+    animation: 4.4s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(4) {
+    top: 2%;
+    left: 72%;
+    font-size: 0.2em;
+    animation: 4.1s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(5) {
+    top: 8%;
+    left: 87%;
+    font-size: 0.4em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(6) {
+    top: 18%;
+    left: 97%;
+    font-size: 0.4em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(7) {
+    top: 20%;
+    left: 57%;
+    font-size: 0.2em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(8) {
+    top: 28%;
+    left: 7%;
+    font-size: 0.4em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(9) {
+    top: 2%;
+    left: 17%;
+    font-size: 0.4em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(10) {
+    top: 32%;
+    left: 27%;
+    font-size: 0.4em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(11) {
+    top: 48%;
+    left: 2%;
+    font-size: 0.4em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(12) {
+    top: 68%;
+    left: 92%;
+    font-size: 0.4em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(13) {
+    top: 55%;
+    left: 88%;
+    font-size: 0.2em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(14) {
+    top: 62%;
+    left: 77%;
+    font-size: 0.4em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(15) {
+    top: 68%;
+    left: 47%;
+    font-size: 0.4em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(16) {
+    top: 70%;
+    left: 27%;
+    font-size: 0.4em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(17) {
+    top: 55%;
+    left: 78%;
+    font-size: 0.2em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(18) {
+    top: 42%;
+    left: 76%;
+    font-size: 0.4em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(19) {
+    top: 48%;
+    left: 38%;
+    font-size: 0.4em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(20) {
+    top: 28%;
+    left: 40%;
+    font-size: 0.4em;
+    animation: 4.3s ease-in-out scintillement infinite;
+    z-index: 0;
+}
+strong:nth-child(21) {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    font-size: 0.8em;
+    animation: 40s ease-in-out filantel infinite;
+    text-shadow: 1px 1px 26px rgb(255, 255, 255), 0 0 1.2em rgb(255, 255, 255), 0 0 0.4em rgb(255, 255, 255);
+    z-index: 0;
+}
+strong:nth-child(22) {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    font-size: 0.8em;
+    animation: 30s ease-in-out filanter infinite;
+    text-shadow: 1px 1px 26px rgb(255, 255, 255), 0 0 1.2em rgb(255, 255, 255), 0 0 0.4em rgb(255, 255, 255);
+    z-index: 0;
+}
+main {
+    z-index: 1;
+}
+audio {
+    background-color: transparent;
+    background-image: url(media/img/lunaire-solo.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 4px 4px 16px black;
+    border-radius: 20px;
+    width: 26em;
+    height: 28em;
+    z-index: 2;
+}
+@keyframes scintillement {
+    from {
+        text-shadow: 1px 1px 8px rgb(255, 255, 255), 0 0 0.4em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
+    }
+    50% {
+        opacity: 100%;
+        text-shadow: 1px 1px 26px rgb(255, 255, 255), 0 0 1.2em rgb(255, 255, 255), 0 0 0.4em rgb(255, 255, 255);
+    }
+    to {
+        text-shadow: 1px 1px 8px rgb(255, 255, 255), 0 0 0.4em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
+    }
+} 
+@keyframes filantel {
+    from {
+        top: 60px;
+        left: -40px;
+    }
+    15% {
+        top: -600px;
+        padding-left: 2200%;
+    }
+    19% {
+        top: 600px;
+        padding-left: -2200%;
+    }
+    to {
+        top: -600px;
+        padding-left: 1550%;
+    }
+}
+@keyframes filanter {
+    from {
+        top: 600px;
+        padding-left: 4000px;
+    }
+    8% {
+        top: 600px;
+        padding-left: 4000px;
+    }
+    12% {
+        top: 600px;
+        padding-right: -2000px;
+    }
+    to {
+        top: -100px;
+        padding-right: -2000px;
+    }
+}
